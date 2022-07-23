@@ -1,0 +1,173 @@
+.aboutContainer {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  justify-content: center;
+  gap: 8%;
+  margin-top: 5%;
+  margin-bottom: 1%;
+  height: 200px;
+}
+
+.aboutContainer h2 {
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.aboutContainer p {
+  width: 30%;
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 0px;
+  margin-bottom: 4px;
+  color: grey;
+}
+
+.tips {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+  margin-bottom: 2%;
+  margin-top: 16px;
+}
+
+.hours {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hours p {
+  font-size: 0.9rem;
+  margin-top: -2px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.hours span {
+  font-size: 2rem;
+  color: rgb(82, 221, 175);
+  font-weight: 800;
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+
+  .aboutContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 8%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    height: 200px;
+  }
+
+  .aboutContainer h2 {
+    font-size: 2.5rem;
+    margin-top: 10%;
+  }
+
+  .aboutContainer p {
+    width: 70%;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 0px;
+    margin-bottom: 24px;
+    color: grey;
+  }
+
+  .tips {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    margin-bottom: 2%;
+    margin-top: 5%;
+  }
+
+  }
+
+  @media screen and (max-width: 768px) {
+
+    .aboutContainer {
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      justify-content: center;
+      align-items: center;
+      gap: 8%;
+      margin-top: 5%;
+      margin-bottom: 10%;
+      height: 200px;
+    }
+  
+    .aboutContainer h2 {
+      font-size: 2.5rem;
+      margin-top: 20%;
+
+    }
+  
+    .aboutContainer p {
+      width: 70%;
+      font-size: 16px;
+      font-weight: 300;
+      margin-top: 0px;
+      margin-bottom: 24px;
+      color: grey;
+    }
+  
+    .tips {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 5%;
+      margin-bottom: 2%;
+      margin-top: 15%;
+    }
+
+  }
+
+
+  @media screen and (max-width: 375px) {
+
+    .aboutContainer {
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      justify-content: center;
+      align-items: center;
+      gap: 8%;
+      margin-top: 5%;
+      margin-bottom: 10%;
+      height: 200px;
+    }
+  
+    .aboutContainer h2 {
+      font-size: 2.5rem;
+      margin-top: 20%;
+      margin-bottom: 16px;
+    }
+  
+    .aboutContainer p {
+      width: 80%;
+      font-size: 16px;
+      font-weight: 300;
+      margin-top: 0px;
+      margin-bottom: 24px;
+      color: grey;
+    }
+  
+    .tips {
+      display: none;
+    }
+
+  }

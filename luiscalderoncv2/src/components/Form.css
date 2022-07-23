@@ -1,0 +1,122 @@
+.form {
+    width: 30%;
+  }
+  
+  .moreTittle2 {
+    margin-top: 4%;
+    font-size: 2.5rem;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .moreContainer2 {
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+    background-color: white;
+    margin-top: 1%;
+    align-items: flex-start;
+  }
+  
+  form {
+    margin-top: 5%;
+    margin-left: -35px;
+  }
+  
+  label {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: black;
+    top: -5px;
+  }
+  
+  input {
+    width: 95%;
+    margin-top: 8px;
+    border-radius: 2px;
+    margin-bottom: 24px;
+    height: 40px;
+  }
+  
+  .inputForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  button {
+    background-color: aquamarine;
+    color: black;
+    font-size: 1rem;
+    font-weight: 800;
+    border-style: none;
+    width: 180px;
+    height: 40px;
+  }
+  
+  button:hover {
+    opacity: 80%;
+  }
+  
+  .input2 {
+    height: 120px;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .moreContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 8%;
+      background-color: white;
+    }
+  
+    .moreContainer h2 {
+      margin-top: 4%;
+      font-size: 2.5rem;
+      margin-bottom: 4px;
+    }
+  
+    .languageContainer {
+      display: flex;
+      flex-direction: column;
+      gap: 20%;
+      margin-bottom: 8%;
+      margin-left: 20%;
+      margin-top: 5%;
+    }
+  
+    .moreContainer2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 8%;
+      background-color: white;
+      margin-top: 1%;
+      align-items: center;
+    }
+  
+    .moreTittle2 {
+      margin-top: 4%;
+      font-size: 2.5rem;
+      margin-bottom: -16px;
+    }
+  
+    input {
+      width: 120%;
+      margin-top: 8px;
+      border-radius: 2px;
+      margin-bottom: 24px;
+      height: 40px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    input {
+      width: 180%;
+      margin-top: 8px;
+      border-radius: 2px;
+      margin-bottom: 24px;
+      height: 40px;
+    }
+  }
+  

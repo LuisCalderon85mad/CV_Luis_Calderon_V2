@@ -1,0 +1,102 @@
+.portfolioContainer {
+  display: flex;
+  gap: 8%;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.portfolioContainer h2 {
+  margin-top: 0px;
+  font-size: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.portfolioContent {
+  width: 30%;
+}
+
+.portfolioContent h3 {
+  margin-top: 0px;
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 8px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.portfolioContent p {
+  margin-top: 0px;
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  color: grey;
+}
+
+.imgPortfolio {
+  margin-bottom: 40px;
+}
+
+.imgPortfolio img {
+  width: 500px;
+  height: 350px;
+}
+
+.imgPortfolio img:hover {
+  transform: scale 1.3;
+  overflow: hidden;
+  opacity: 60%;
+}
+
+@media screen and (max-width: 1024px) {
+  .portfolioContent {
+    width: 70%;
+  }
+
+  .portfolioContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+  }
+
+  .imgPortfolio img {
+    width: 100%;
+    height: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .portfolioContent {
+    width: 70%;
+  }
+
+  .portfolioContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .portfolioContent {
+    width: 80%;
+  }
+
+  .portfolioContent {
+    width: 80%;
+  }
+
+  .portfolioContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+  }
+}

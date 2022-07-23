@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.buttonFilter {
+    margin-right: 5%;
+    background-color: white;
+    border-style: solid;
+  }
+  
+  .buttonFilter:hover {
+    margin-right: 5%;
+    background-color: white;
+    border-style: solid;
+    border-color: aquamarine;
+  }
+
+  .switchPortfolios {
+        margin-top: 4%;
+        margin-left: 43%;
+  }
+
+
+  @media screen and (max-width: 1024px) {
+    
+    .switchPortfolios {
+      margin-top: 4%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-left: 0px;
+}
+  }
